@@ -1,0 +1,15 @@
+{
+  "name": "doubansaucechurch:witch_hut",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "doubansaucechurch:witch_hut",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

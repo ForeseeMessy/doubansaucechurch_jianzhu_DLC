@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  F",
+    " B ",
+    "S  "
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:fire_charge"
+    },
+    "B": {
+      "item": "minecraft:blaze_rod"
+    },
+    "S": {
+      "item": "doubansaucechurch:ender_sauce_ingot"
+    }
+  },
+  "result": {
+    "item": "doubansaucechurch:staff_of_fire_and_thunder",
+    "count": 1
+  }
+}

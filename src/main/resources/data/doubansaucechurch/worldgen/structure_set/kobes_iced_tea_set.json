@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "doubansaucechurch:kobes_iced_tea",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 312,
+    "separation": 104,
+    "salt": 123456784
+  }
+}

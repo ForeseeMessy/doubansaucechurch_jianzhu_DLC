@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:music_disc_11"
+    },
+    {
+      "item": "doubansaucechurch:ender_sauce_ingot"
+    },
+    {
+      "item": "minecraft:paper"
+    }
+  ],
+  "result": {
+    "item": "doubansaucechurch:music_disc_streets_in_mist",
+    "count": 1
+  }
+}

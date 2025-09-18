@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "doubansaucechurch:lingluan_chapel",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 312,
+    "separation": 104,
+    "salt": 20240615
+  }
+}

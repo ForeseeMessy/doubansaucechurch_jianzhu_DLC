@@ -1,0 +1,20 @@
+{
+  "item.doubansaucechurch.bishop_helmet": "豆瓣酱教会--万识归一味之冠",
+  "item.doubansaucechurch.bishop_chestplate": "豆瓣酱教会--百载陈醴之护",
+  "item.doubansaucechurch.bishop_leggings": "豆瓣酱教会--秘法步道之恒",
+  "item.doubansaucechurch.bishop_boots": "豆瓣酱教会--万界传香之履",
+  "item.doubansaucechurch.bishop_sword": "末影戒律--主教仪式剑",
+  "itemGroup.doubansaucechurch.doubansaucechurch_tab": "豆瓣酱教会彩蛋",
+  "item.doubansaucechurch.ender_sauce_ingot": "末影蘸酱锭",
+  "item.doubansaucechurch.faith_leaves": "信仰树叶",
+  "item.doubansaucechurch.divine_sapling": "神灵树苗",
+  "item.doubansaucechurch.abyssal_corrupted_sapling": "受到深渊侵蚀的神灵树树苗",
+  "item.doubansaucechurch.abyssal_corrupting_leaves": "深渊侵蚀中的神灵树树叶",
+  "item.doubansaucechurch.abyssal_corrupted_leaves": "深渊侵蚀的神灵树树叶",
+
+  "item.doubansaucechurch.music_disc_streets_in_mist": "音乐唱片",
+  "item.doubansaucechurch.music_disc_streets_in_mist.desc": "雾中缀连的街道",
+  "item.doubansaucechurch.music_disc_streets_in_mist.subtitle": "Porkkana - 雾中缀连的街道",
+  "item.doubansaucechurch.staff_of_fire_and_thunder": "雷与火之杖",
+  "entity.doubansaucechurch.tracking_fireball": "追踪火球"
+}

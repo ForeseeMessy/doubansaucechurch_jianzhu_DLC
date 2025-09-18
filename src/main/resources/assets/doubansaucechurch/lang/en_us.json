@@ -1,0 +1,20 @@
+{
+  "item.doubansaucechurch.bishop_helmet": "Bishop Helmet",
+  "item.doubansaucechurch.bishop_chestplate": "Bishop Chestplate",
+  "item.doubansaucechurch.bishop_leggings": "Bishop Leggings",
+  "item.doubansaucechurch.bishop_boots": "Bishop Boots",
+  "item.doubansaucechurch.bishop_sword": "Bishop Ritual Sword",
+  "itemGroup.doubansaucechurch.doubansaucechurch_tab": "DouBanSaucechurch",
+  "item.doubansaucechurch.ender_sauce_ingot": "Ender Sauce Ingot",
+  "item.doubansaucechurch.faith_leaves": "Faith Leaves",
+  "item.doubansaucechurch.divine_sapling": "Divine Sapling",
+  "item.doubansaucechurch.abyssal_corrupted_sapling": "Abyssal Corrupted Divine Sapling",
+  "item.doubansaucechurch.abyssal_corrupting_leaves": "Abyssal Corrupting Divine Leaves",
+  "item.doubansaucechurch.abyssal_corrupted_leaves": "Abyssal Corrupted Divine Leaves",
+
+  "item.doubansaucechurch.music_disc_streets_in_mist": "Music Disc",
+  "item.doubansaucechurch.music_disc_streets_in_mist.desc": "Streets Connected in Mist",
+  "item.doubansaucechurch.music_disc_streets_in_mist.subtitle": "Porkkana - Streets Connected in Mist",
+  "item.doubansaucechurch.staff_of_fire_and_thunder": "Staff of Fire and Thunder",
+  "entity.doubansaucechurch.tracking_fireball": "Tracking Fireball"
+} 

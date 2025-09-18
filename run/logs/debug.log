@@ -1,0 +1,968 @@
+[179月2025 20:24:17.514] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, D:\env\gradle8.8\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.8, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mixin.config, doubansaucechurch.mixins.json]
+[179月2025 20:24:17.518] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[179月2025 20:24:17.556] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
+[179月2025 20:24:17.568] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[179月2025 20:24:17.583] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
+[179月2025 20:24:17.596] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[179月2025 20:24:17.601] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is D:\DoubanSauceChurch\DoubanSauceChurch\run
+[179月2025 20:24:17.602] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is D:\DoubanSauceChurch\DoubanSauceChurch\run\mods
+[179月2025 20:24:17.602] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is D:\DoubanSauceChurch\DoubanSauceChurch\run\config
+[179月2025 20:24:17.604] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is D:\DoubanSauceChurch\DoubanSauceChurch\run\config\fml.toml
+[179月2025 20:24:17.639] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: 
+[179月2025 20:24:17.644] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[179月2025 20:24:17.742] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[179月2025 20:24:17.828] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[179月2025 20:24:18.256] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
+[179月2025 20:24:18.257] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[179月2025 20:24:18.257] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[179月2025 20:24:18.258] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[179月2025 20:24:18.258] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[179月2025 20:24:18.259] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 1.0
+[179月2025 20:24:18.259] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 1.0 loading
+[179月2025 20:24:18.259] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 10.0.9+10.0.9+main.dcd20f30
+[179月2025 20:24:18.260] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Requesting CoreMods to not apply the fix for ASMAPI.findFirstInstructionBefore by default
+[179月2025 20:24:18.260] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
+[179月2025 20:24:18.261] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 6.0.5+6.0.5+master.eb8e549b
+[179月2025 20:24:18.261] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[179月2025 20:24:18.262] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/]: CoreMods will preserve legacy behavior of ASMAPI.findFirstInstructionBefore for backwards-compatibility
+[179月2025 20:24:18.262] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.2.4
+[179月2025 20:24:18.264] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 7.0.1+7.0.1+master.d2b38bf6
+[179月2025 20:24:18.264] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 5
+[179月2025 20:24:18.264] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[179月2025 20:24:18.265] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[179月2025 20:24:18.269] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[179月2025 20:24:18.270] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[179月2025 20:24:18.280] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@2e4b8173
+[179月2025 20:24:18.294] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/D:/env/gradle8.8/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[179月2025 20:24:18.297] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[179月2025 20:24:18.297] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[179月2025 20:24:18.298] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[179月2025 20:24:18.298] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[179月2025 20:24:18.299] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[179月2025 20:24:18.299] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[179月2025 20:24:18.301] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[179月2025 20:24:18.301] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[179月2025 20:24:18.301] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[179月2025 20:24:18.303] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is D:\DoubanSauceChurch\DoubanSauceChurch\run
+[179月2025 20:24:18.303] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is D:\DoubanSauceChurch\DoubanSauceChurch\run\mods
+[179月2025 20:24:18.303] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is D:\DoubanSauceChurch\DoubanSauceChurch\run\config
+[179月2025 20:24:18.304] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is D:\DoubanSauceChurch\DoubanSauceChurch\run\config\fml.toml
+[179月2025 20:24:18.304] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[179月2025 20:24:18.306] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[179月2025 20:24:18.307] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) UHD Graphics GL version 4.6.0 - Build 31.0.101.1999, Intel
+[179月2025 20:24:18.308] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[179月2025 20:24:18.308] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forgeclientuserdev as launch service
+[179月2025 20:24:18.318] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[forgeVersion=47.4.8, mcVersion=1.20.1, mcpVersion=20230612.114412, forgeGroup=net.minecraftforge]
+[179月2025 20:24:18.320] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[179月2025 20:24:18.320] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'mcp'
+[179月2025 20:24:18.320] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {srg=srgtomcp:1234}
+[179月2025 20:24:18.320] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[179月2025 20:24:18.322] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[179月2025 20:24:18.322] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[179月2025 20:24:18.322] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[179月2025 20:24:18.322] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[179月2025 20:24:18.332] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[179月2025 20:24:18.336] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null)
+[179月2025 20:24:18.336] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Dependency Locators : (JarInJar:null)
+[179月2025 20:24:18.342] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Got mod coordinates doubansaucechurch%%D:\DoubanSauceChurch\DoubanSauceChurch\build\resources\main;doubansaucechurch%%D:\DoubanSauceChurch\DoubanSauceChurch\build\classes\java\main from env
+[179月2025 20:24:18.344] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Found supplied mod coordinates [{doubansaucechurch=[D:\DoubanSauceChurch\DoubanSauceChurch\build\resources\main, D:\DoubanSauceChurch\DoubanSauceChurch\build\classes\java\main]}]
+[179月2025 20:24:18.637] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.20.1-47.4.8_mapped_official_1.20.1-recomp.jar with {minecraft} mods - versions {1.20.1}
+[179月2025 20:24:18.641] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate D:\env\gradle8.8\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.8\721e2d976494c8275bd81b3404e7dd109b7558c\javafmllanguage-1.20.1-47.4.8.jar
+[179月2025 20:24:18.641] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\env\gradle8.8\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.8\721e2d976494c8275bd81b3404e7dd109b7558c\javafmllanguage-1.20.1-47.4.8.jar is missing mods.toml file
+[179月2025 20:24:18.645] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate D:\env\gradle8.8\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.8\73022064045853db9acea4a61e8c76aad4df52d6\lowcodelanguage-1.20.1-47.4.8.jar
+[179月2025 20:24:18.645] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\env\gradle8.8\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.8\73022064045853db9acea4a61e8c76aad4df52d6\lowcodelanguage-1.20.1-47.4.8.jar is missing mods.toml file
+[179月2025 20:24:18.647] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate D:\env\gradle8.8\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.8\f6f8fcedd2034d8aeb4c696bae232555fbc99bd3\mclanguage-1.20.1-47.4.8.jar
+[179月2025 20:24:18.647] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\env\gradle8.8\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.8\f6f8fcedd2034d8aeb4c696bae232555fbc99bd3\mclanguage-1.20.1-47.4.8.jar is missing mods.toml file
+[179月2025 20:24:18.650] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate D:\env\gradle8.8\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.8\21a451a2c815d519fd534d90eddbd8fd0c44d36e\fmlcore-1.20.1-47.4.8.jar
+[179月2025 20:24:18.650] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\env\gradle8.8\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.8\21a451a2c815d519fd534d90eddbd8fd0c44d36e\fmlcore-1.20.1-47.4.8.jar is missing mods.toml file
+[179月2025 20:24:18.653] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate D:\DoubanSauceChurch\DoubanSauceChurch\build\resources\main
+[179月2025 20:24:18.664] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {doubansaucechurch} mods - versions {1.0-SNAPSHOT}
+[179月2025 20:24:18.666] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
+[179月2025 20:24:18.670] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {forge} mods - versions {47.4.8}
+[179月2025 20:24:18.700] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from forge-1.20.1-47.4.8_mapped_official_1.20.1-recomp.jar, it does not contain dependency information.
+[179月2025 20:24:18.701] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from , it does not contain dependency information.
+[179月2025 20:24:18.701] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from main, it does not contain dependency information.
+[179月2025 20:24:18.702] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from mclanguage-1.20.1-47.4.8.jar, it does not contain dependency information.
+[179月2025 20:24:18.702] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from javafmllanguage-1.20.1-47.4.8.jar, it does not contain dependency information.
+[179月2025 20:24:18.702] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from fmlcore-1.20.1-47.4.8.jar, it does not contain dependency information.
+[179月2025 20:24:18.702] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from lowcodelanguage-1.20.1-47.4.8.jar, it does not contain dependency information.
+[179月2025 20:24:18.730] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[179月2025 20:24:18.732] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.20.1-47.4.8_mapped_official_1.20.1-recomp.jar with {minecraft} mods - versions {1.20.1}
+[179月2025 20:24:18.734] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file D:\env\gradle8.8\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.4.8_mapped_official_1.20.1\forge-1.20.1-47.4.8_mapped_official_1.20.1-recomp.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[179月2025 20:24:18.735] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
+[179月2025 20:24:18.736] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {forge} mods - versions {47.4.8}
+[179月2025 20:24:18.736] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file / with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+[179月2025 20:24:18.781] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[179月2025 20:24:18.781] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[179月2025 20:24:18.781] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[179月2025 20:24:18.781] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod method_redirector with Javascript path coremods/method_redirector.js
+[179月2025 20:24:18.783] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_method.js
+[179月2025 20:24:18.783] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
+[179月2025 20:24:18.783] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
+[179月2025 20:24:18.783] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/method_redirector.js
+[179月2025 20:24:18.783] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate D:\DoubanSauceChurch\DoubanSauceChurch\build\resources\main
+[179月2025 20:24:18.785] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {doubansaucechurch} mods - versions {1.0-SNAPSHOT}
+[179月2025 20:24:18.785] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file D:\DoubanSauceChurch\DoubanSauceChurch\build\resources\main with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[179月2025 20:24:18.786] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[179月2025 20:24:18.798] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 3 language providers
+[179月2025 20:24:18.799] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1.0
+[179月2025 20:24:18.800] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider lowcodefml, version 47
+[179月2025 20:24:18.800] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 47
+[179月2025 20:24:18.807] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft, forge]
+[179月2025 20:24:18.807] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: minecraft
+[179月2025 20:24:18.807] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: forge
+[179月2025 20:24:18.810] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 2 mod requirements (2 mandatory, 0 optional)
+[179月2025 20:24:18.810] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[179月2025 20:24:19.198] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 33222 method mappings from methods.csv
+[179月2025 20:24:19.226] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 31003 field mappings from fields.csv
+[179月2025 20:24:19.280] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[179月2025 20:24:19.281] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[179月2025 20:24:19.282] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[179月2025 20:24:19.282] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[179月2025 20:24:19.282] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[179月2025 20:24:19.282] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
+[179月2025 20:24:19.490] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[179月2025 20:24:19.491] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
+[179月2025 20:24:19.584] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[179月2025 20:24:19.584] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
+[179月2025 20:24:19.620] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[179月2025 20:24:19.621] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/method_redirector.js
+[179月2025 20:24:19.678] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[179月2025 20:24:19.694] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1ee27d73 to Target : CLASS {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+[179月2025 20:24:19.695] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2a39aa2b to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/Structure;} {} {V}
+[179月2025 20:24:19.696] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@62b93086 to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+[179月2025 20:24:19.696] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@254449bb to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+[179月2025 20:24:19.696] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@4e642ee1 to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+[179月2025 20:24:19.697] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@29ebbdf4 to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
+[179月2025 20:24:19.697] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2fd954f to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[179月2025 20:24:19.697] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5731d3a to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
+[179月2025 20:24:19.697] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6a0f2853 to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[179月2025 20:24:19.697] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1eff3cfb to Target : CLASS {Lnet/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal;} {} {V}
+[179月2025 20:24:19.698] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1eff3cfb to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece;} {} {V}
+[179月2025 20:24:19.698] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1eff3cfb to Target : CLASS {Lnet/minecraft/world/entity/monster/Strider;} {} {V}
+[179月2025 20:24:19.698] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1eff3cfb to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/SwampHutPiece;} {} {V}
+[179月2025 20:24:19.698] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1eff3cfb to Target : CLASS {Lnet/minecraft/world/entity/animal/horse/SkeletonTrapGoal;} {} {V}
+[179月2025 20:24:19.698] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1eff3cfb to Target : CLASS {Lnet/minecraft/world/entity/animal/frog/Tadpole;} {} {V}
+[179月2025 20:24:19.698] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1eff3cfb to Target : CLASS {Lnet/minecraft/world/entity/EntityType;} {} {V}
+[179月2025 20:24:19.698] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1eff3cfb to Target : CLASS {Lnet/minecraft/world/entity/npc/CatSpawner;} {} {V}
+[179月2025 20:24:19.698] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1eff3cfb to Target : CLASS {Lnet/minecraft/world/entity/monster/Zombie;} {} {V}
+[179月2025 20:24:19.699] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1eff3cfb to Target : CLASS {Lnet/minecraft/world/level/NaturalSpawner;} {} {V}
+[179月2025 20:24:19.699] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1eff3cfb to Target : CLASS {Lnet/minecraft/world/entity/monster/Spider;} {} {V}
+[179月2025 20:24:19.699] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1eff3cfb to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece;} {} {V}
+[179月2025 20:24:19.699] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1eff3cfb to Target : CLASS {Lnet/minecraft/world/entity/npc/Villager;} {} {V}
+[179月2025 20:24:19.699] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1eff3cfb to Target : CLASS {Lnet/minecraft/world/level/levelgen/PatrolSpawner;} {} {V}
+[179月2025 20:24:19.699] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1eff3cfb to Target : CLASS {Lnet/minecraft/server/commands/RaidCommand;} {} {V}
+[179月2025 20:24:19.699] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1eff3cfb to Target : CLASS {Lnet/minecraft/world/entity/raid/Raid;} {} {V}
+[179月2025 20:24:19.700] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1eff3cfb to Target : CLASS {Lnet/minecraft/server/commands/SummonCommand;} {} {V}
+[179月2025 20:24:19.700] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1eff3cfb to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;} {} {V}
+[179月2025 20:24:19.700] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1eff3cfb to Target : CLASS {Lnet/minecraft/world/entity/ai/village/VillageSiege;} {} {V}
+[179月2025 20:24:19.700] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1eff3cfb to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece;} {} {V}
+[179月2025 20:24:19.700] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1eff3cfb to Target : CLASS {Lnet/minecraft/world/level/levelgen/PhantomSpawner;} {} {V}
+[179月2025 20:24:19.700] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1eff3cfb to Target : CLASS {Lnet/minecraft/world/entity/monster/ZombieVillager;} {} {V}
+[179月2025 20:24:19.700] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[179月2025 20:24:20.015] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[179月2025 20:24:20.016] [main/DEBUG] [mixin/]: Registering mixin config: doubansaucechurch.mixins.json
+[179月2025 20:24:20.041] [main/DEBUG] [mixin/]: Compatibility level JAVA_8 specified by doubansaucechurch.mixins.json is lower than the default level supported by the current mixin service (JAVA_16).
+[179月2025 20:24:20.044] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[179月2025 20:24:20.045] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[179月2025 20:24:20.045] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[179月2025 20:24:20.045] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[179月2025 20:24:20.045] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[179月2025 20:24:20.045] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[179月2025 20:24:20.045] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[179月2025 20:24:20.045] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(forge)
+[179月2025 20:24:20.045] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
+[179月2025 20:24:20.045] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
+[179月2025 20:24:20.046] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
+[179月2025 20:24:20.046] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
+[179月2025 20:24:20.046] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[179月2025 20:24:20.046] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(doubansaucechurch)
+[179月2025 20:24:20.046] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(doubansaucechurch)
+[179月2025 20:24:20.046] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(doubansaucechurch)
+[179月2025 20:24:20.046] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(doubansaucechurch)
+[179月2025 20:24:20.046] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(doubansaucechurch)
+[179月2025 20:24:20.046] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(doubansaucechurch)]
+[179月2025 20:24:20.048] [main/DEBUG] [mixin/]: inject() running with 4 agents
+[179月2025 20:24:20.048] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[179月2025 20:24:20.048] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[179月2025 20:24:20.048] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[179月2025 20:24:20.048] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(doubansaucechurch)]
+[179月2025 20:24:20.048] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, D:\env\gradle8.8\caches\forge_gradle\assets, --assetIndex, 5]
+[179月2025 20:24:20.150] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
+[179月2025 20:24:20.152] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[179月2025 20:24:20.152] [main/DEBUG] [mixin/]: Selecting config doubansaucechurch.mixins.json
+[179月2025 20:24:20.157] [main/WARN] [mixin/]: Reference map 'doubansaucechurch.refmap.json' for doubansaucechurch.mixins.json could not be read. If this is a development environment you can ignore this message
+[179月2025 20:24:20.159] [main/DEBUG] [mixin/]: Preparing doubansaucechurch.mixins.json (0)
+[179月2025 20:24:20.553] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[179月2025 20:24:20.558] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[179月2025 20:24:20.558] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[179月2025 20:24:20.686] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@235d659c
+[179月2025 20:24:21.325] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@235d659c
+[179月2025 20:24:21.883] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/EntityType
+[179月2025 20:24:22.385] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
+[179月2025 20:24:22.420] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/StairBlock
+[179月2025 20:24:22.491] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
+[179月2025 20:24:23.117] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/ItemStack
+[179月2025 20:24:23.560] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/frog/Tadpole
+[179月2025 20:24:23.602] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
+[179月2025 20:24:24.342] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Spider
+[179月2025 20:24:24.386] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 143 milliseconds
+[179月2025 20:24:24.405] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Zombie
+[179月2025 20:24:24.447] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/ZombieVillager
+[179月2025 20:24:24.513] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal
+[179月2025 20:24:24.716] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/horse/SkeletonTrapGoal
+[179月2025 20:24:24.744] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Strider
+[179月2025 20:24:24.867] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/Villager
+[179月2025 20:24:24.973] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
+[179月2025 20:24:25.493] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/Structure
+[179月2025 20:24:25.529] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece
+[179月2025 20:24:25.541] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/SwampHutPiece
+[179月2025 20:24:25.551] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece
+[179月2025 20:24:25.570] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece
+[179月2025 20:24:25.690] [pool-4-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/biome/Biome
+[179月2025 20:24:25.898] [pool-4-thread-1/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Creating vanilla freeze snapshot
+[179月2025 20:24:25.901] [pool-4-thread-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block Sync: VANILLA -> ACTIVE
+[179月2025 20:24:25.911] [pool-4-thread-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:fluid Sync: VANILLA -> ACTIVE
+[179月2025 20:24:25.911] [pool-4-thread-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item Sync: VANILLA -> ACTIVE
+[179月2025 20:24:25.920] [pool-4-thread-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect Sync: VANILLA -> ACTIVE
+[179月2025 20:24:25.920] [pool-4-thread-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event Sync: VANILLA -> ACTIVE
+[179月2025 20:24:25.927] [pool-4-thread-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion Sync: VANILLA -> ACTIVE
+[179月2025 20:24:25.927] [pool-4-thread-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:enchantment Sync: VANILLA -> ACTIVE
+[179月2025 20:24:25.928] [pool-4-thread-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type Sync: VANILLA -> ACTIVE
+[179月2025 20:24:25.929] [pool-4-thread-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block_entity_type Sync: VANILLA -> ACTIVE
+[179月2025 20:24:25.929] [pool-4-thread-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:particle_type Sync: VANILLA -> ACTIVE
+[179月2025 20:24:25.929] [pool-4-thread-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:menu Sync: VANILLA -> ACTIVE
+[179月2025 20:24:25.930] [pool-4-thread-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:painting_variant Sync: VANILLA -> ACTIVE
+[179月2025 20:24:25.930] [pool-4-thread-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:recipe_type Sync: VANILLA -> ACTIVE
+[179月2025 20:24:25.930] [pool-4-thread-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:recipe_serializer Sync: VANILLA -> ACTIVE
+[179月2025 20:24:25.930] [pool-4-thread-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:attribute Sync: VANILLA -> ACTIVE
+[179月2025 20:24:25.930] [pool-4-thread-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:stat_type Sync: VANILLA -> ACTIVE
+[179月2025 20:24:25.930] [pool-4-thread-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:command_argument_type Sync: VANILLA -> ACTIVE
+[179月2025 20:24:25.931] [pool-4-thread-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:villager_profession Sync: VANILLA -> ACTIVE
+[179月2025 20:24:25.931] [pool-4-thread-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:point_of_interest_type Sync: VANILLA -> ACTIVE
+[179月2025 20:24:25.933] [pool-4-thread-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:memory_module_type Sync: VANILLA -> ACTIVE
+[179月2025 20:24:25.934] [pool-4-thread-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sensor_type Sync: VANILLA -> ACTIVE
+[179月2025 20:24:25.934] [pool-4-thread-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:schedule Sync: VANILLA -> ACTIVE
+[179月2025 20:24:25.934] [pool-4-thread-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:activity Sync: VANILLA -> ACTIVE
+[179月2025 20:24:25.935] [pool-4-thread-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/carver Sync: VANILLA -> ACTIVE
+[179月2025 20:24:25.935] [pool-4-thread-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/feature Sync: VANILLA -> ACTIVE
+[179月2025 20:24:25.935] [pool-4-thread-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:chunk_status Sync: VANILLA -> ACTIVE
+[179月2025 20:24:25.935] [pool-4-thread-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/block_state_provider_type Sync: VANILLA -> ACTIVE
+[179月2025 20:24:25.937] [pool-4-thread-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/foliage_placer_type Sync: VANILLA -> ACTIVE
+[179月2025 20:24:25.937] [pool-4-thread-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/tree_decorator_type Sync: VANILLA -> ACTIVE
+[179月2025 20:24:25.937] [pool-4-thread-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome Sync: VANILLA -> ACTIVE
+[179月2025 20:24:25.942] [pool-4-thread-1/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Vanilla freeze snapshot created
+[179月2025 20:24:25.977] [pool-4-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[179月2025 20:24:25.977] [pool-4-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 17
+[179月2025 20:24:25.978] [pool-4-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[179月2025 20:24:25.980] [pool-4-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
+[179月2025 20:24:25.980] [pool-4-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[179月2025 20:24:25.981] [pool-4-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[179月2025 20:24:25.982] [pool-4-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.82.Final.jar%23151!/:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:288) ~[netty-common-4.1.82.Final.jar%23151!/:4.1.82.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:282) ~[netty-common-4.1.82.Final.jar%23151!/:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) ~[netty-common-4.1.82.Final.jar%23151!/:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.82.Final.jar%23151!/:4.1.82.Final]
+	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.82.Final.jar%23151!/:4.1.82.Final]
+	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar%23151!/:4.1.82.Final]
+	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar%23151!/:4.1.82.Final]
+	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:34) ~[forge-1.20.1-47.4.8_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
+	at net.minecraftforge.network.NetworkHooks.init(NetworkHooks.java:52) ~[forge-1.20.1-47.4.8_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
+	at net.minecraft.server.Bootstrap.bootStrap(Bootstrap.java:62) ~[forge-1.20.1-47.4.8_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.main.Main.lambda$main$0(Main.java:151) ~[forge-1.20.1-47.4.8_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:842) ~[?:?]
+[179月2025 20:24:25.983] [pool-4-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[179月2025 20:24:25.985] [pool-4-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 (in module io.netty.common) cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to module io.netty.common
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:560) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:410) ~[netty-common-4.1.82.Final.jar%23151!/:4.1.82.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:401) ~[netty-common-4.1.82.Final.jar%23151!/:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) ~[netty-common-4.1.82.Final.jar%23151!/:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.82.Final.jar%23151!/:4.1.82.Final]
+	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.82.Final.jar%23151!/:4.1.82.Final]
+	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar%23151!/:4.1.82.Final]
+	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar%23151!/:4.1.82.Final]
+	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:34) ~[forge-1.20.1-47.4.8_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
+	at net.minecraftforge.network.NetworkHooks.init(NetworkHooks.java:52) ~[forge-1.20.1-47.4.8_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
+	at net.minecraft.server.Bootstrap.bootStrap(Bootstrap.java:62) ~[forge-1.20.1-47.4.8_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.main.Main.lambda$main$0(Main.java:151) ~[forge-1.20.1-47.4.8_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:842) ~[?:?]
+[179月2025 20:24:25.986] [pool-4-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[179月2025 20:24:25.986] [pool-4-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[179月2025 20:24:25.987] [pool-4-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: maxDirectMemory: 4253024256 bytes (maybe)
+[179月2025 20:24:25.987] [pool-4-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: C:\Users\凌晓白\AppData\Local\Temp (java.io.tmpdir)
+[179月2025 20:24:25.987] [pool-4-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[179月2025 20:24:25.988] [pool-4-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: Platform: Windows
+[179月2025 20:24:25.988] [pool-4-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[179月2025 20:24:25.988] [pool-4-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[179月2025 20:24:25.990] [pool-4-thread-1/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[179月2025 20:24:25.990] [pool-4-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[179月2025 20:24:26.088] [pool-4-thread-1/DEBUG] [net.minecraftforge.network.NetworkHooks/]: Loading Network data for FML net version: FML3
+[179月2025 20:24:26.348] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/env/gradle8.8/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.8_mapped_official_1.20.1/forge-1.20.1-47.4.8_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[179月2025 20:24:26.349] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/env/gradle8.8/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.8_mapped_official_1.20.1/forge-1.20.1-47.4.8_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[179月2025 20:24:26.383] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[179月2025 20:24:26.393] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[179月2025 20:24:26.498] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[179月2025 20:24:26.635] [Render thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 6434
+[179月2025 20:24:26.654] [Render thread/DEBUG] [net.minecraftforge.fml.ModWorkManager/LOADING]: Using 16 threads for parallel mod-loading
+[179月2025 20:24:26.661] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@235d659c - got cpw.mods.cl.ModuleClassLoader@383790cf
+[179月2025 20:24:26.662] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
+[179月2025 20:24:26.666] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@235d659c - got cpw.mods.cl.ModuleClassLoader@383790cf
+[179月2025 20:24:26.666] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for top.lacrus.doubansaucechurch.Doubansaucechurch
+[179月2025 20:24:26.703] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 47.4 from cpw.mods.modlauncher.TransformingClassLoader@235d659c
+[179月2025 20:24:26.704] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 47.4.8
+[179月2025 20:24:26.704] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 47.4
+[179月2025 20:24:26.704] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
+[179月2025 20:24:26.705] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: MCP Version package package net.minecraftforge.versions.mcp, Minecraft, version 1.20.1 from cpw.mods.modlauncher.TransformingClassLoader@235d659c
+[179月2025 20:24:26.705] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.20.1
+[179月2025 20:24:26.705] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20230612.114412
+[179月2025 20:24:26.705] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.8, for MC 1.20.1 with MCP 20230612.114412
+[179月2025 20:24:26.705] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.8 Initialized
+[179月2025 20:24:26.757] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.ModLoadingContext/]: Attempted to register an empty config for type COMMON on mod doubansaucechurch
+[179月2025 20:24:26.759] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for doubansaucechurch
+[179月2025 20:24:26.763] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing top.lacrus.doubansaucechurch.Config to MOD
+[179月2025 20:24:26.772] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing top.lacrus.doubansaucechurch.Doubansaucechurch$ClientModEvents to MOD
+[179月2025 20:24:26.774] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing top.lacrus.doubansaucechurch.ModEntityRenderers to MOD
+[179月2025 20:24:26.780] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing top.lacrus.doubansaucechurch.ModItems to FORGE
+[179月2025 20:24:26.783] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing top.lacrus.doubansaucechurch.StaffOfFireAndThunder to FORGE
+[179月2025 20:24:26.786] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
+[179月2025 20:24:26.786] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
+[179月2025 20:24:26.786] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.ModLoadingContext/]: Attempted to register an empty config for type COMMON on mod forge
+[179月2025 20:24:26.803] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+[179月2025 20:24:26.804] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
+[179月2025 20:24:26.808] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$ColorRegisterHandler to MOD
+[179月2025 20:24:26.814] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.model.data.ModelDataManager to FORGE
+[179月2025 20:24:26.816] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.ForgeHooksClient$ClientEvents to MOD
+[179月2025 20:24:26.827] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.ClientForgeMod to MOD
+[179月2025 20:24:26.849] [Render thread/DEBUG] [net.minecraftforge.registries.ObjectHolderRegistry/REGISTRIES]: Processing ObjectHolder annotations
+[179月2025 20:24:26.874] [Render thread/DEBUG] [net.minecraftforge.registries.ObjectHolderRegistry/REGISTRIES]: Found 3860 ObjectHolder annotations
+[179月2025 20:24:26.879] [Render thread/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/energy/IEnergyStorage;
+[179月2025 20:24:26.880] [Render thread/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandler;
+[179月2025 20:24:26.880] [Render thread/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandlerItem;
+[179月2025 20:24:26.880] [Render thread/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/items/IItemHandler;
+[179月2025 20:24:26.881] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Unfreezing vanilla registries
+[179月2025 20:24:26.884] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:sound_event
+[179月2025 20:24:26.887] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:sound_event
+[179月2025 20:24:26.887] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:fluid
+[179月2025 20:24:26.888] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:fluid
+[179月2025 20:24:26.888] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:block
+[179月2025 20:24:26.889] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:block
+[179月2025 20:24:26.889] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:attribute
+[179月2025 20:24:26.889] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:attribute
+[179月2025 20:24:26.889] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:mob_effect
+[179月2025 20:24:26.890] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:mob_effect
+[179月2025 20:24:26.890] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:particle_type
+[179月2025 20:24:26.890] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:particle_type
+[179月2025 20:24:26.896] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:item
+[179月2025 20:24:26.897] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:item
+[179月2025 20:24:26.899] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:entity_type
+[179月2025 20:24:26.899] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:entity_type
+[179月2025 20:24:26.900] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:sensor_type
+[179月2025 20:24:26.900] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:sensor_type
+[179月2025 20:24:26.900] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:memory_module_type
+[179月2025 20:24:26.900] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:memory_module_type
+[179月2025 20:24:26.900] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:potion
+[179月2025 20:24:26.901] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:potion
+[179月2025 20:24:26.901] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:game_event
+[179月2025 20:24:26.901] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:game_event
+[179月2025 20:24:26.901] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:enchantment
+[179月2025 20:24:26.902] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:enchantment
+[179月2025 20:24:26.902] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:block_entity_type
+[179月2025 20:24:26.903] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:block_entity_type
+[179月2025 20:24:26.903] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:painting_variant
+[179月2025 20:24:26.903] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:painting_variant
+[179月2025 20:24:26.903] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:stat_type
+[179月2025 20:24:26.904] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:stat_type
+[179月2025 20:24:26.904] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:custom_stat
+[179月2025 20:24:26.904] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:custom_stat
+[179月2025 20:24:26.905] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:chunk_status
+[179月2025 20:24:26.905] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:chunk_status
+[179月2025 20:24:26.905] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:rule_test
+[179月2025 20:24:26.906] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:rule_test
+[179月2025 20:24:26.906] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:rule_block_entity_modifier
+[179月2025 20:24:26.906] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:rule_block_entity_modifier
+[179月2025 20:24:26.906] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:pos_rule_test
+[179月2025 20:24:26.906] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:pos_rule_test
+[179月2025 20:24:26.906] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:menu
+[179月2025 20:24:26.907] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:menu
+[179月2025 20:24:26.907] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:recipe_type
+[179月2025 20:24:26.908] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:recipe_type
+[179月2025 20:24:26.932] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:recipe_serializer
+[179月2025 20:24:26.933] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:recipe_serializer
+[179月2025 20:24:26.933] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:position_source_type
+[179月2025 20:24:26.933] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:position_source_type
+[179月2025 20:24:26.937] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:command_argument_type
+[179月2025 20:24:26.937] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:command_argument_type
+[179月2025 20:24:26.937] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:villager_type
+[179月2025 20:24:26.938] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:villager_type
+[179月2025 20:24:26.938] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:villager_profession
+[179月2025 20:24:26.938] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:villager_profession
+[179月2025 20:24:26.938] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:point_of_interest_type
+[179月2025 20:24:26.938] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:point_of_interest_type
+[179月2025 20:24:26.938] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:schedule
+[179月2025 20:24:26.939] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:schedule
+[179月2025 20:24:26.939] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:activity
+[179月2025 20:24:26.939] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:activity
+[179月2025 20:24:26.939] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:loot_pool_entry_type
+[179月2025 20:24:26.939] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:loot_pool_entry_type
+[179月2025 20:24:26.939] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:loot_function_type
+[179月2025 20:24:26.941] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:loot_function_type
+[179月2025 20:24:26.944] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:loot_condition_type
+[179月2025 20:24:26.945] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:loot_condition_type
+[179月2025 20:24:26.945] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:loot_number_provider_type
+[179月2025 20:24:26.946] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:loot_number_provider_type
+[179月2025 20:24:26.946] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:loot_nbt_provider_type
+[179月2025 20:24:26.946] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:loot_nbt_provider_type
+[179月2025 20:24:26.946] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:loot_score_provider_type
+[179月2025 20:24:26.946] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:loot_score_provider_type
+[179月2025 20:24:26.946] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:float_provider_type
+[179月2025 20:24:26.946] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:float_provider_type
+[179月2025 20:24:26.946] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:int_provider_type
+[179月2025 20:24:26.947] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:int_provider_type
+[179月2025 20:24:26.947] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:height_provider_type
+[179月2025 20:24:26.947] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:height_provider_type
+[179月2025 20:24:26.947] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:block_predicate_type
+[179月2025 20:24:26.947] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:block_predicate_type
+[179月2025 20:24:26.947] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/carver
+[179月2025 20:24:26.948] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/carver
+[179月2025 20:24:26.948] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/feature
+[179月2025 20:24:26.948] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/feature
+[179月2025 20:24:26.948] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/structure_processor
+[179月2025 20:24:26.948] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/structure_processor
+[179月2025 20:24:26.948] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/structure_placement
+[179月2025 20:24:26.948] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/structure_placement
+[179月2025 20:24:26.948] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/structure_piece
+[179月2025 20:24:26.950] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/structure_piece
+[179月2025 20:24:26.950] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/structure_type
+[179月2025 20:24:26.950] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/structure_type
+[179月2025 20:24:26.950] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/placement_modifier_type
+[179月2025 20:24:26.950] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/placement_modifier_type
+[179月2025 20:24:26.950] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/block_state_provider_type
+[179月2025 20:24:26.951] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/block_state_provider_type
+[179月2025 20:24:26.951] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/foliage_placer_type
+[179月2025 20:24:26.951] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/foliage_placer_type
+[179月2025 20:24:26.951] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/trunk_placer_type
+[179月2025 20:24:26.951] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/trunk_placer_type
+[179月2025 20:24:26.951] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/root_placer_type
+[179月2025 20:24:26.952] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/root_placer_type
+[179月2025 20:24:26.952] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/tree_decorator_type
+[179月2025 20:24:26.952] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/tree_decorator_type
+[179月2025 20:24:26.952] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/feature_size_type
+[179月2025 20:24:26.952] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/feature_size_type
+[179月2025 20:24:26.952] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/biome_source
+[179月2025 20:24:26.952] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/biome_source
+[179月2025 20:24:26.952] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/chunk_generator
+[179月2025 20:24:26.953] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/chunk_generator
+[179月2025 20:24:26.953] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/material_condition
+[179月2025 20:24:26.953] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/material_condition
+[179月2025 20:24:26.953] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/material_rule
+[179月2025 20:24:26.953] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/material_rule
+[179月2025 20:24:26.953] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/density_function_type
+[179月2025 20:24:26.953] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/density_function_type
+[179月2025 20:24:26.954] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/structure_pool_element
+[179月2025 20:24:26.954] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/structure_pool_element
+[179月2025 20:24:26.954] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:cat_variant
+[179月2025 20:24:26.954] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:cat_variant
+[179月2025 20:24:26.954] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:frog_variant
+[179月2025 20:24:26.954] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:frog_variant
+[179月2025 20:24:26.954] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:banner_pattern
+[179月2025 20:24:26.955] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:banner_pattern
+[179月2025 20:24:26.955] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:instrument
+[179月2025 20:24:26.955] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:instrument
+[179月2025 20:24:26.955] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:decorated_pot_patterns
+[179月2025 20:24:26.955] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:decorated_pot_patterns
+[179月2025 20:24:26.956] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:creative_mode_tab
+[179月2025 20:24:26.957] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:creative_mode_tab
+[179月2025 20:24:26.966] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: forge:biome_modifier_serializers
+[179月2025 20:24:26.967] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: forge:biome_modifier_serializers
+[179月2025 20:24:26.967] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: forge:display_contexts
+[179月2025 20:24:26.968] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: forge:display_contexts
+[179月2025 20:24:26.968] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: forge:entity_data_serializers
+[179月2025 20:24:26.968] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: forge:entity_data_serializers
+[179月2025 20:24:26.976] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: forge:fluid_type
+[179月2025 20:24:26.976] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: forge:fluid_type
+[179月2025 20:24:26.976] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: forge:global_loot_modifier_serializers
+[179月2025 20:24:26.977] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: forge:global_loot_modifier_serializers
+[179月2025 20:24:26.981] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: forge:holder_set_type
+[179月2025 20:24:26.981] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: forge:holder_set_type
+[179月2025 20:24:26.982] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: forge:structure_modifier_serializers
+[179月2025 20:24:26.983] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: forge:structure_modifier_serializers
+[179月2025 20:24:26.983] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:worldgen/biome
+[179月2025 20:24:26.983] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:worldgen/biome
+[179月2025 20:24:27.070] [Render thread/DEBUG] [net.minecraftforge.client.loading.ClientModLoader/CORE]: Generating PackInfo named mod:forge for mod file /
+[179月2025 20:24:27.071] [Render thread/DEBUG] [net.minecraftforge.client.loading.ClientModLoader/CORE]: Generating PackInfo named mod:doubansaucechurch for mod file D:\DoubanSauceChurch\DoubanSauceChurch\build\resources\main
+[179月2025 20:24:27.509] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [doubansaucechurch]
+[179月2025 20:24:27.839] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[179月2025 20:24:27.851] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type CLIENT
+[179月2025 20:24:27.852] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for D:\DoubanSauceChurch\DoubanSauceChurch\run\config\forge-client.toml
+[179月2025 20:24:27.852] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file D:\DoubanSauceChurch\DoubanSauceChurch\run\config\forge-client.toml
+[179月2025 20:24:27.857] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file D:\DoubanSauceChurch\DoubanSauceChurch\run\config\forge-client.toml for changes
+[179月2025 20:24:27.860] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-client.toml
+[179月2025 20:24:27.862] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[179月2025 20:24:27.963] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[179月2025 20:24:27.972] [Worker-Main-14/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[179月2025 20:24:30.116] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.net.ConnectException: null
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:574) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123) ~[java.net.http:?]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:142) ~[fmlcore-1.20.1-47.4.8.jar%23195!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:180) ~[fmlcore-1.20.1-47.4.8.jar%23195!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.4.8.jar%23195!/:?]
+Caused by: java.net.ConnectException
+	at jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055) ~[java.net.http:?]
+	at jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198) ~[java.net.http:?]
+	at jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230) ~[java.net.http:?]
+	at jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206) ~[java.net.http:?]
+	at java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:842) ~[?:?]
+Caused by: java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848) ~[?:?]
+	at jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183) ~[java.net.http:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:569) ~[?:?]
+	at jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185) ~[java.net.http:?]
+	at jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230) ~[java.net.http:?]
+	at jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206) ~[java.net.http:?]
+	at java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:842) ~[?:?]
+[179月2025 20:24:31.680] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Freezing registries
+[179月2025 20:24:31.682] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.693] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:fluid Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.693] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.700] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.700] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.707] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.708] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:enchantment Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.708] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.708] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block_entity_type Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.710] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:particle_type Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.710] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:menu Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.710] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:painting_variant Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.710] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:recipe_type Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.710] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:recipe_serializer Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.711] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:attribute Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.711] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:stat_type Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.711] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:command_argument_type Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.711] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:villager_profession Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.711] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:point_of_interest_type Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.712] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:memory_module_type Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.713] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sensor_type Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.713] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:schedule Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.713] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:activity Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.713] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/carver Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.713] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/feature Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.714] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:chunk_status Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.714] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/block_state_provider_type Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.714] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/foliage_placer_type Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.714] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/tree_decorator_type Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.714] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.714] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:entity_data_serializers Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.714] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:global_loot_modifier_serializers Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.714] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:biome_modifier_serializers Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.714] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:fluid_type Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.714] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:structure_modifier_serializers Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.714] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:holder_set_type Sync: FROZEN -> ACTIVE
+[179月2025 20:24:31.715] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:display_contexts Sync: FROZEN -> ACTIVE
+[179月2025 20:24:32.505] [modloading-worker-0/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: All registries frozen
+[179月2025 20:24:32.558] [Render thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 7893
+[179月2025 20:24:32.580] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[179月2025 20:24:32.580] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[179月2025 20:24:32.581] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: doubansaucechurch:music_disc_streets_in_mist
+[179月2025 20:24:32.647] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 扬声器 (Realtek(R) Audio)
+[179月2025 20:24:32.647] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[179月2025 20:24:32.759] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[179月2025 20:24:32.834] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[179月2025 20:24:32.835] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[179月2025 20:24:32.837] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[179月2025 20:24:32.839] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[179月2025 20:24:32.856] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[179月2025 20:24:32.857] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[179月2025 20:24:32.858] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[179月2025 20:24:32.858] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[179月2025 20:24:33.286] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[179月2025 20:24:33.813] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[179月2025 20:24:33.820] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[179月2025 20:24:33.821] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[179月2025 20:24:37.600] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[179月2025 20:24:37.618] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Fixed minecraft:item id mismatch doubansaucechurch:bishop_boots: 1266 (init) -> 1265 (map).
+[179月2025 20:24:37.619] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Fixed minecraft:item id mismatch doubansaucechurch:bishop_chestplate: 1264 (init) -> 1263 (map).
+[179月2025 20:24:37.619] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Fixed minecraft:item id mismatch doubansaucechurch:bishop_helmet: 1263 (init) -> 1262 (map).
+[179月2025 20:24:37.619] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Fixed minecraft:item id mismatch doubansaucechurch:bishop_leggings: 1265 (init) -> 1264 (map).
+[179月2025 20:24:37.619] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Fixed minecraft:item id mismatch doubansaucechurch:bishop_sword: 1267 (init) -> 1266 (map).
+[179月2025 20:24:37.619] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Fixed minecraft:item id mismatch doubansaucechurch:staff_of_fire_and_thunder: 1262 (init) -> 1267 (map).
+[179月2025 20:24:37.645] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.649] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:fluid Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.649] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.654] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.655] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.662] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.662] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:enchantment Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.662] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.662] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block_entity_type Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.663] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:particle_type Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.663] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:menu Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.663] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:painting_variant Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.663] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:recipe_type Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.663] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:recipe_serializer Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.663] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:attribute Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.663] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:stat_type Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.663] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:command_argument_type Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.664] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:villager_profession Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.664] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:point_of_interest_type Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.665] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:memory_module_type Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.665] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sensor_type Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.665] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:schedule Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.665] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:activity Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.665] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/carver Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.665] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/feature Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.666] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:chunk_status Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.666] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/block_state_provider_type Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.666] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/foliage_placer_type Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.666] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/tree_decorator_type Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.666] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.666] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:entity_data_serializers Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.666] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:global_loot_modifier_serializers Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.666] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:biome_modifier_serializers Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.666] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:fluid_type Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.666] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:structure_modifier_serializers Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.666] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:holder_set_type Sync: ACTIVE -> STAGING
+[179月2025 20:24:37.666] [Render thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:display_contexts Sync: ACTIVE -> STAGING
+[179月2025 20:24:38.025] [Render thread/DEBUG] [net.minecraftforge.registries.ObjectHolderRegistry/REGISTRIES]: Applying holder lookups
+[179月2025 20:24:38.029] [Render thread/DEBUG] [net.minecraftforge.registries.ObjectHolderRegistry/REGISTRIES]: Holder lookups applied
+[179月2025 20:24:38.049] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:forge for mod file /
+[179月2025 20:24:38.051] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:doubansaucechurch for mod file D:\DoubanSauceChurch\DoubanSauceChurch\build\resources\main
+[179月2025 20:24:38.676] [Render thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/server/commands/SummonCommand
+[179月2025 20:24:38.995] [Worker-Main-7/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/raid/Raid
+[179月2025 20:24:39.282] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[179月2025 20:24:39.370] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[179月2025 20:24:39.385] [Render thread/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: doubansaucechurch:has_structure/kobebryant_sculpture
+[179月2025 20:24:39.724] [Render thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save 建筑随机生成
+[179月2025 20:24:39.748] [Render thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete 建筑随机生成
+[179月2025 20:24:39.787] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[179月2025 20:24:39.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[179月2025 20:24:39.848] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[179月2025 20:24:39.848] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for .\saves\建筑随机生成\serverconfig\forge-server.toml
+[179月2025 20:24:39.849] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file .\saves\建筑随机生成\serverconfig\forge-server.toml
+[179月2025 20:24:39.849] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file .\saves\建筑随机生成\serverconfig\forge-server.toml for changes
+[179月2025 20:24:39.849] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-server.toml
+[179月2025 20:24:39.880] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/PhantomSpawner
+[179月2025 20:24:39.885] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/PatrolSpawner
+[179月2025 20:24:39.888] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/CatSpawner
+[179月2025 20:24:39.891] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/ai/village/VillageSiege
+[179月2025 20:24:40.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[179月2025 20:24:42.437] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate
+[179月2025 20:24:42.704] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 准备生成区域中：0%
+[179月2025 20:24:42.722] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 准备生成区域中：0%
+[179月2025 20:24:42.741] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 准备生成区域中：0%
+[179月2025 20:24:42.741] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 准备生成区域中：0%
+[179月2025 20:24:42.846] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 准备生成区域中：0%
+[179月2025 20:24:43.342] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 准备生成区域中：5%
+[179月2025 20:24:43.781] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[179月2025 20:24:43.785] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2952 ms
+[179月2025 20:24:43.866] [Server thread/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[179月2025 20:24:43.866] [Server thread/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[179月2025 20:24:43.867] [Server thread/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1b379ea9
+[179月2025 20:24:43.884] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/NaturalSpawner
+[179月2025 20:24:43.958] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[179月2025 20:24:43.960] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[179月2025 20:24:43.982] [Render thread/DEBUG] [io.netty.channel.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 32
+[179月2025 20:24:44.006] [Render thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[179月2025 20:24:44.006] [Render thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[179月2025 20:24:44.015] [Render thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.noKeySetOptimization: false
+[179月2025 20:24:44.015] [Render thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.selectorAutoRebuildThreshold: 512
+[179月2025 20:24:44.023] [Render thread/DEBUG] [io.netty.util.internal.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
+[179月2025 20:24:44.106] [Render thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.processId: 24816 (auto-detected)
+[179月2025 20:24:44.111] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[179月2025 20:24:44.112] [Render thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv4Stack: false
+[179月2025 20:24:44.112] [Render thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv6Addresses: false
+[179月2025 20:24:44.145] [Render thread/DEBUG] [io.netty.util.NetUtilInitializations/]: Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[179月2025 20:24:44.148] [Render thread/DEBUG] [io.netty.util.NetUtil/]: Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[179月2025 20:24:44.245] [Render thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+[179月2025 20:24:44.279] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 32
+[179月2025 20:24:44.279] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 32
+[179月2025 20:24:44.279] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
+[179月2025 20:24:44.279] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
+[179月2025 20:24:44.279] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
+[179月2025 20:24:44.279] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
+[179月2025 20:24:44.279] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
+[179月2025 20:24:44.279] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[179月2025 20:24:44.279] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[179月2025 20:24:44.279] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[179月2025 20:24:44.279] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
+[179月2025 20:24:44.279] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[179月2025 20:24:44.291] [Render thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
+[179月2025 20:24:44.292] [Render thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
+[179月2025 20:24:44.292] [Render thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[179月2025 20:24:44.326] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting local connection.
+[179月2025 20:24:44.463] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxCapacityPerThread: 4096
+[179月2025 20:24:44.464] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.ratio: 8
+[179月2025 20:24:44.464] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.chunkSize: 32
+[179月2025 20:24:44.464] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.blocking: false
+[179月2025 20:24:44.474] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting local connection.
+[179月2025 20:24:44.498] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModData' to 'fml:handshake' sequence 0
+[179月2025 20:24:44.504] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 0
+[179月2025 20:24:44.527] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModList' to 'fml:handshake' sequence 1
+[179月2025 20:24:44.528] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
+[179月2025 20:24:44.529] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Logging into server with mod list [minecraft, forge, doubansaucechurch]
+[179月2025 20:24:44.530] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML3' from server : ACCEPTED
+[179月2025 20:24:44.530] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Version test of '1.0' from server : ACCEPTED
+[179月2025 20:24:44.530] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML3' from server : ACCEPTED
+[179月2025 20:24:44.530] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML3' from server : ACCEPTED
+[179月2025 20:24:44.530] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML3' from server : ACCEPTED
+[179月2025 20:24:44.530] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML3' from server : ACCEPTED
+[179月2025 20:24:44.530] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Version test of '1.1' from server : ACCEPTED
+[179月2025 20:24:44.530] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from server
+[179月2025 20:24:44.531] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Dispatching wrapped packet reply for channel fml:handshake with index 1
+[179月2025 20:24:44.532] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Accepted server connection
+[179月2025 20:24:44.532] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
+[179月2025 20:24:44.532] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 1 of type net.minecraftforge.network.HandshakeMessages$C2SModListReply
+[179月2025 20:24:44.532] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.HandshakeHandler/REGISTRIES]: Expecting 19 registries: [minecraft:command_argument_type, minecraft:recipe_serializer, minecraft:sound_event, minecraft:particle_type, minecraft:villager_profession, minecraft:item, minecraft:potion, minecraft:painting_variant, forge:fluid_type, minecraft:block_entity_type, forge:display_contexts, minecraft:block, forge:entity_data_serializers, minecraft:mob_effect, minecraft:stat_type, minecraft:menu, minecraft:enchantment, minecraft:fluid, minecraft:entity_type]
+[179月2025 20:24:44.532] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client connection with modlist [minecraft, forge, doubansaucechurch]
+[179月2025 20:24:44.533] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML3' from client : ACCEPTED
+[179月2025 20:24:44.533] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Version test of '1.0' from client : ACCEPTED
+[179月2025 20:24:44.533] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML3' from client : ACCEPTED
+[179月2025 20:24:44.533] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML3' from client : ACCEPTED
+[179月2025 20:24:44.533] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML3' from client : ACCEPTED
+[179月2025 20:24:44.533] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML3' from client : ACCEPTED
+[179月2025 20:24:44.533] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Version test of '1.1' from client : ACCEPTED
+[179月2025 20:24:44.533] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from client
+[179月2025 20:24:44.533] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Accepted client connection mod list
+[179月2025 20:24:44.562] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 2
+[179月2025 20:24:44.562] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 2
+[179月2025 20:24:44.563] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received config sync from server
+[179月2025 20:24:44.563] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Dispatching wrapped packet reply for channel fml:handshake with index 2
+[179月2025 20:24:44.563] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 2
+[179月2025 20:24:44.563] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 2 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[179月2025 20:24:44.563] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[179月2025 20:24:44.585] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[179月2025 20:24:44.609] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[179月2025 20:24:44.665] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:7569f62c] logged in with entity id 279 at (5.5, 110.0, -3.5)
+[179月2025 20:24:44.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev加入了游戏
+[179月2025 20:24:45.479] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 43 advancements
+[179月2025 20:24:46.367] [Worker-Main-3/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService/]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@5cbd7bec[id=380df991-f603-344c-a090-369bad2a924a,name=Dev,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:119) ~[authlib-4.0.43.jar%23133!/:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:91) ~[authlib-4.0.43.jar%23133!/:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:175) ~[authlib-4.0.43.jar%23133!/:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:51) ~[authlib-4.0.43.jar%23133!/:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:48) ~[authlib-4.0.43.jar%23133!/:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3533) ~[guava-31.1-jre.jar%23106!/:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2282) ~[guava-31.1-jre.jar%23106!/:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2159) ~[guava-31.1-jre.jar%23106!/:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2049) ~[guava-31.1-jre.jar%23106!/:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3966) ~[guava-31.1-jre.jar%23106!/:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3989) ~[guava-31.1-jre.jar%23106!/:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4950) ~[guava-31.1-jre.jar%23106!/:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4956) ~[guava-31.1-jre.jar%23106!/:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:149) ~[authlib-4.0.43.jar%23133!/:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:2438) ~[forge-1.20.1-47.4.8_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.resources.SkinManager.lambda$registerSkins$4(SkinManager.java:117) ~[forge-1.20.1-47.4.8_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1395) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:554) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.net.Socket.connect(Socket.java:633) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:534) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:639) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1286) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1127) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1686) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1610) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-4.0.43.jar%23133!/:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:96) ~[authlib-4.0.43.jar%23133!/:?]
+	... 21 more
+[179月2025 20:24:49.432] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[179月2025 20:24:49.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[建筑随机生成]'/minecraft:overworld
+[179月2025 20:24:49.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[建筑随机生成]'/minecraft:the_nether
+[179月2025 20:24:49.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[建筑随机生成]'/minecraft:the_end
+[179月2025 20:24:49.643] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save 建筑随机生成
+[179月2025 20:24:49.649] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete 建筑随机生成
+[179月2025 20:25:00.337] [Server thread/DEBUG] [io.netty.util.internal.ThreadLocalRandom/]: -Dio.netty.initialSeedUniquifier: 0x38584f4470c9fd5b
+[179月2025 20:25:08.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 已将自己的游戏模式设置为创造模式]
+[179月2025 20:25:08.294] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 已将自己的游戏模式设置为创造模式
+[179月2025 20:25:34.982] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[179月2025 20:25:34.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[建筑随机生成]'/minecraft:overworld
+[179月2025 20:25:35.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[建筑随机生成]'/minecraft:the_nether
+[179月2025 20:25:35.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[建筑随机生成]'/minecraft:the_end
+[179月2025 20:25:35.012] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save 建筑随机生成
+[179月2025 20:25:35.017] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete 建筑随机生成
+[179月2025 20:25:52.694] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 43 advancements
+[179月2025 20:26:03.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 已将时间设为1000]
+[179月2025 20:26:03.256] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 已将时间设为1000
+[179月2025 20:26:54.165] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element doubansaucechurch:angel_statue took 32 ms
+[179月2025 20:26:54.174] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 最近的doubansaucechurch:angel_statue位于[-4288, ~, -1856]（4586个方块外）
+[179月2025 20:27:10.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 已将Dev传送至-4287.500000, 79.000000, -1896.500000]
+[179月2025 20:27:10.719] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 已将Dev传送至-4287.500000, 79.000000, -1896.500000
+[179月2025 20:27:10.907] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 43 advancements
+[179月2025 20:27:26.532] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[179月2025 20:27:26.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[建筑随机生成]'/minecraft:overworld
+[179月2025 20:27:26.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[建筑随机生成]'/minecraft:the_nether
+[179月2025 20:27:26.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[建筑随机生成]'/minecraft:the_end
+[179月2025 20:27:26.556] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save 建筑随机生成
+[179月2025 20:27:26.562] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete 建筑随机生成
+[179月2025 20:28:11.381] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[179月2025 20:28:11.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[建筑随机生成]'/minecraft:overworld
+[179月2025 20:28:11.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[建筑随机生成]'/minecraft:the_nether
+[179月2025 20:28:11.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[建筑随机生成]'/minecraft:the_end
+[179月2025 20:28:11.412] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save 建筑随机生成
+[179月2025 20:28:11.417] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete 建筑随机生成
+[179月2025 20:28:22.408] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 没有类型为“doubansaucechurch:”的结构
+[179月2025 20:28:28.059] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element doubansaucechurch:caixukun took 618 ms
+[179月2025 20:28:28.066] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 最近的doubansaucechurch:caixukun位于[20288, ~, 12608]（28506个方块外）
+[179月2025 20:28:42.048] [Worker-Main-9/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'caelus:fall_flying'
+[179月2025 20:28:42.053] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=12, y=-52, z=3}
+[179月2025 20:28:42.054] [Worker-Main-9/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'irons_spellbooks:holy_magic_resist'
+[179月2025 20:28:42.054] [Worker-Main-9/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'caelus:fall_flying'
+[179月2025 20:28:42.054] [Worker-Main-9/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'irons_spellbooks:ice_magic_resist'
+[179月2025 20:28:42.054] [Worker-Main-9/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'irons_spellbooks:fire_magic_resist'
+[179月2025 20:28:42.054] [Worker-Main-9/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'irons_spellbooks:lightning_magic_resist'
+[179月2025 20:28:42.054] [Worker-Main-9/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'irons_spellbooks:blood_magic_resist'
+[179月2025 20:28:42.054] [Worker-Main-9/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'irons_spellbooks:ender_magic_resist'
+[179月2025 20:28:42.054] [Worker-Main-9/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'irons_spellbooks:evocation_magic_resist'
+[179月2025 20:28:42.054] [Worker-Main-9/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'irons_spellbooks:nature_magic_resist'
+[179月2025 20:28:42.054] [Worker-Main-9/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'irons_spellbooks:eldritch_magic_resist'
+[179月2025 20:28:42.055] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=10, y=-52, z=-1}
+[179月2025 20:28:42.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 已将Dev传送至20288.500000, 68.810000, 12608.500000]
+[179月2025 20:28:42.646] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 已将Dev传送至20288.500000, 68.810000, 12608.500000
+[179月2025 20:28:43.037] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 43 advancements
+[179月2025 20:29:00.981] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[179月2025 20:29:00.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[建筑随机生成]'/minecraft:overworld
+[179月2025 20:29:01.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[建筑随机生成]'/minecraft:the_nether
+[179月2025 20:29:01.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[建筑随机生成]'/minecraft:the_end
+[179月2025 20:29:01.010] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save 建筑随机生成
+[179月2025 20:29:01.016] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete 建筑随机生成
+[179月2025 20:29:19.582] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[179月2025 20:29:19.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[建筑随机生成]'/minecraft:overworld
+[179月2025 20:29:19.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[建筑随机生成]'/minecraft:the_nether
+[179月2025 20:29:19.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[建筑随机生成]'/minecraft:the_end
+[179月2025 20:29:19.776] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save 建筑随机生成
+[179月2025 20:29:19.783] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete 建筑随机生成
+[179月2025 20:29:31.075] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element doubansaucechurch:cat_cake took 2329 ms
+[179月2025 20:29:31.075] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2294ms or 45 ticks behind
+[179月2025 20:29:31.093] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 最近的doubansaucechurch:cat_cake位于[-28992, ~, -9856]（0个方块外）
+[179月2025 20:29:46.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 已将Dev传送至-28991.500000, 74.200000, -9855.500000]
+[179月2025 20:29:46.547] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 已将Dev传送至-28991.500000, 74.200000, -9855.500000
+[179月2025 20:30:30.351] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 没有类型为“minecraft:doubansaucechurch”的结构
+[179月2025 20:30:38.010] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save 建筑随机生成
+[179月2025 20:30:38.013] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete 建筑随机生成
+[179月2025 20:30:42.612] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element doubansaucechurch:witch_hut took 103 ms
+[179月2025 20:30:42.620] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 最近的doubansaucechurch:witch_hut位于[-39280, ~, -2304]（12747个方块外）
+[179月2025 20:31:02.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 已将Dev传送至-39279.500000, 88.000000, -2303.500000]
+[179月2025 20:31:02.103] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 已将Dev传送至-39279.500000, 88.000000, -2303.500000
+[179月2025 20:31:02.233] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 43 advancements
+[179月2025 20:32:53.482] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[179月2025 20:32:53.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[建筑随机生成]'/minecraft:overworld
+[179月2025 20:32:53.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[建筑随机生成]'/minecraft:the_nether
+[179月2025 20:32:53.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[建筑随机生成]'/minecraft:the_end
+[179月2025 20:32:53.507] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save 建筑随机生成
+[179月2025 20:32:53.512] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete 建筑随机生成
+[179月2025 20:33:15.462] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element doubansaucechurch:lingluan_chapel took 2812 ms
+[179月2025 20:33:15.462] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2780ms or 55 ticks behind
+[179月2025 20:33:15.475] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 最近的doubansaucechurch:lingluan_chapel位于[11920, ~, -43072]（0个方块外）
+[179月2025 20:33:30.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 已将Dev传送至11920.500000, 104.180000, -43071.500000]
+[179月2025 20:33:30.566] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 已将Dev传送至11920.500000, 104.180000, -43071.500000
+[179月2025 20:34:08.432] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[179月2025 20:34:08.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[建筑随机生成]'/minecraft:overworld
+[179月2025 20:34:08.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[建筑随机生成]'/minecraft:the_nether
+[179月2025 20:34:08.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[建筑随机生成]'/minecraft:the_end
+[179月2025 20:34:08.455] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save 建筑随机生成
+[179月2025 20:34:08.459] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete 建筑随机生成
+[179月2025 20:34:09.216] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: 连接中断
+[179月2025 20:34:09.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev退出了游戏
+[179月2025 20:34:09.225] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[179月2025 20:34:09.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[179月2025 20:34:09.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[179月2025 20:34:09.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[179月2025 20:34:10.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[建筑随机生成]'/minecraft:overworld
+[179月2025 20:34:12.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[建筑随机生成]'/minecraft:the_nether
+[179月2025 20:34:12.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[建筑随机生成]'/minecraft:the_end
+[179月2025 20:34:12.427] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save 建筑随机生成
+[179月2025 20:34:12.430] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete 建筑随机生成
+[179月2025 20:34:12.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (建筑随机生成): All chunks are saved
+[179月2025 20:34:12.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[179月2025 20:34:12.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[179月2025 20:34:12.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[179月2025 20:34:13.005] [Server thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Reverting to FROZEN data state.
+[179月2025 20:34:13.005] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.009] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:fluid Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.009] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.012] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.013] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.016] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.016] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:enchantment Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.016] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.017] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block_entity_type Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.017] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:particle_type Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.017] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:menu Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.017] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:painting_variant Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.017] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:recipe_type Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.017] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:recipe_serializer Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.017] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:attribute Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.017] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:stat_type Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.017] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:command_argument_type Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.018] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:villager_profession Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.018] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:point_of_interest_type Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.019] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:memory_module_type Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.019] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sensor_type Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.020] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:schedule Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.020] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:activity Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.020] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/carver Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.020] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/feature Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.020] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:chunk_status Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.020] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/block_state_provider_type Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.020] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/foliage_placer_type Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.020] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/tree_decorator_type Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.020] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.020] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:entity_data_serializers Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.020] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:global_loot_modifier_serializers Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.020] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:biome_modifier_serializers Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.021] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:fluid_type Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.021] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:structure_modifier_serializers Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.021] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:holder_set_type Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.021] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:display_contexts Sync: ACTIVE -> FROZEN
+[179月2025 20:34:13.393] [Server thread/DEBUG] [net.minecraftforge.registries.ObjectHolderRegistry/REGISTRIES]: Applying holder lookups
+[179月2025 20:34:13.394] [Server thread/DEBUG] [net.minecraftforge.registries.ObjectHolderRegistry/REGISTRIES]: Holder lookups applied
+[179月2025 20:34:13.394] [Server thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: FROZEN state restored.
+[179月2025 20:34:13.395] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
+[179月2025 20:34:15.007] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
